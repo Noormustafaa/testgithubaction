@@ -22,3 +22,94 @@ in Cmd Write git init
  and then hit enter the it will show you initialize empty git repository .
 
 and it will create a .git file in that folder
+
+step6. 
+in cmd 
+once you done that then write git  add . (for Adding the README.md File)
+
+when you keep cursor on that README.md file on the vs code it will show you that index file is added.
+
+
+step7.
+Commit it . write this command .
+
+git commit -m "first commit"
+
+
+
+step8.
+
+create A branch name main.
+git branch -M main
+
+
+step 9.
+git remote add origin https://github.com/Noormustafaa/testgithubaction.git.
+
+step10.
+git push -u origin main
+
+so you will se that README.md File is added .
+so this was the basic step . 
+
+now Step11. 
+in vs Code Create a File Named 
+requirements.txt
+write there libraries 
+pandas 
+pytest Note Pytest is Required here because we are doing the unit testing 
+
+step12 
+create two folder inside that folder src and tests
+
+step 13.
+inside a src folder Create the __init__.py file and math_operations.py file 
+and inside math_operations.py write 
+def add(a, b):
+    return a + b
+
+
+def sub(a, b):
+    return a - b
+
+
+
+step14.
+
+create file in test folder __init.py and test_operations.py file
+in test folder write this
+from src.math_operations import add,sub
+
+def test_add():
+    assert add(2, 3) == 5
+    assert add(-1, 1) == 0
+
+
+def test_sub():
+    assert sub(5, 3) == 2
+    assert sub(4, 3) == 1
+    assert sub(3, 3) == 0
+    assert sub(2, 3) == -1
+
+
+
+
+then go to the vs terminal and write git add .   for commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
