@@ -1,0 +1,24 @@
+Automate Testing For a Python Project.
+
+Step1.
+Create a new Repo. ex name testgithubaction
+
+step2.
+No need to select readme file or anything
+
+step3.
+just click on the Creating Repository 
+
+step4.
+open vs Code 
+and click on 3 dots and select Terminal 
+and then click on > arrow and go to the Command promt 
+
+step5.
+Create A README.md file in vs Code
+
+step5. 
+in Cmd Write git init
+ and then hit enter the it will show you initialize empty git repository .
+
+and it will create a .git file in that folder
